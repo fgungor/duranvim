@@ -7,7 +7,6 @@ return {
 		return {
 			cmd = { "cmake" },
 			args = { "--preset", "default" },
-			--cwd = "/home/fatih/Projects/Nodeverse",
 			cwd = root,
 			components = {
 				"default",
