@@ -10,7 +10,7 @@ return {
 			components = {
 				"default",
 				{ "open_output", on_start = "always" },
-				{ "on_output_quickfix", open_on_exit = "always" },
+				{ "on_output_quickfix", open_on_exit = "failure" },
 				{ "on_exit_set_status", success_codes = { 0 } },
 			},
 		}
