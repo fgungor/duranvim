@@ -16,7 +16,6 @@ return {
 		}
 	end,
 	condition = {
-		filetype = { "cpp", "c" },
-		exists = { "CMakePresets.json" },
+		exists = { "CMakePresets.json", "compile_commands.json" },
 	},
 }

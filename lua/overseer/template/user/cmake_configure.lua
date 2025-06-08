@@ -11,12 +11,12 @@ return {
 			components = {
 				"default",
 				"on_output_quickfix",
+				{ "open_output", on_start = "always" },
 				{ "on_exit_set_status", success_codes = { 0 } },
 			},
 		}
 	end,
 	condition = {
-		filetype = { "cpp", "c" },
 		exists = { "CMakePresets.json" },
 	},
 }
