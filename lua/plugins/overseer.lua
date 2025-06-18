@@ -12,20 +12,4 @@ return {
 			max_height = 25,
 		},
 	},
-	keys = {
-		{
-			"<leader>cc",
-			function()
-				require("overseer").run_template({ name = "CMake Configure (preset)" })
-			end,
-			desc = "CMake Configure",
-		},
-		{
-			"<leader>cb",
-			function()
-				require("overseer").run_template({ name = "CMake Build" })
-			end,
-			desc = "CMake Build",
-		},
-	},
 }
