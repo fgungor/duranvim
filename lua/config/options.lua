@@ -13,4 +13,3 @@ vim.opt.listchars = {
 vim.bo.autoindent = true
 vim.bo.smartindent = false -- optional
 vim.bo.cindent = true -- enable C/C++ specific indentation
-

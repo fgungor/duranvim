@@ -12,6 +12,14 @@ return {
 						auto_scroll = true,
 						quit_on_exit = "success",
 					},
+					components = {
+						{ "default" },
+						{
+							"on_output_quickfix",
+							set_diagnostics = true,
+							open = false,
+						},
+					},
 				},
 				on_new_task = function(task)
 					require("overseer").open({ enter = false, direction = "bottom" })
